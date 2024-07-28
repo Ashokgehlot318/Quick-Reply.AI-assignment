@@ -1,0 +1,32 @@
+.segment-control {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .segment-label {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+  }
+  
+  .segment-label.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .segment-label.active-state {
+    background-color: #0056b3;
+  }
+  
+  .segment-label:hover {
+    background-color: #e9ecef;
+  }
+  

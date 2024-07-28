@@ -1,0 +1,58 @@
+.progress-step-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .progress-step-container.vertical {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .progress-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .progress-step.active .progress-step-control {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .progress-step-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .progress-step-control.line {
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+  }
+  
+  .progress-step-control.number {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .progress-step-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .step-name {
+    font-weight: bold;
+  }
+  
+  .step-description {
+    color: #666;
+  }
+  
